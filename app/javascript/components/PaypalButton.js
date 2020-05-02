@@ -11,10 +11,9 @@ class PaypalButton extends Component {
       'fontFamily': 'Lato',
       'fontSize': '18px',
       'fontWeight': 'bold',
-      'paddingRight': '3pc',
-      'paddingLeft': '3pc',
+      'paddingRight': '2pc',
+      'paddingLeft': '2pc',
       'textTransform': 'none',
-      'paddingTop': '3px',
     };
 
     return (

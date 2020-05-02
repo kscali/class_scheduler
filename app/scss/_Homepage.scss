@@ -347,9 +347,28 @@ p {
     line-height: initial;
 }
 
+@media (min-width: 901px) and (max-width: 1024px) {
+    .splashObjects {
+        margin: 0;
+        .splashContainer {
+            padding: 0 50px;
+            width: 50%
+        }
+    }
+
+    .howItWorksContentContainer {
+        width: 100%;
+        div {
+            div {
+                width: 100%
+            }
+        }
+    }
+}
+
+
 @media (max-width: 901px) {
     .homepageMainContainer > div {
-        margin: 1pc;
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -386,10 +405,21 @@ p {
     .howItWorksContentContainer {
         flex-flow: column;
         align-items: center;
+        width: 100%;
+        div {
+            div {
+                width: 320px;
+                display: flex;
+            }
+        }
     }
 
     .joinUsContentContainer {
         width: stretch;
+    }
+
+    .joinUsContainer {
+        width: 100%;
     }
     
     .joinUsForm {

@@ -124,3 +124,10 @@ $media_padding: 2pc;
         transform: translateY(($mobile_card_media_height/2)-($mobile_media_padding*2)-($mobile_font_size/2))
     }
 }
+
+@media (min-width: 901px) and (max-width: 1024px) {
+    .cardCarouselContainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

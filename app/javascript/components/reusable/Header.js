@@ -163,7 +163,7 @@ class Header extends Component {
           <NonChromeMessage />
           <AppBar
             position='static'
-            style={ { backgroundColor: 'white' } }
+            style={ { backgroundColor: 'white', padding: '0 25px' } }
             classes={ { root: 'menuAppBar' } }
           >
             <Toolbar
@@ -175,16 +175,12 @@ class Header extends Component {
             <Toolbar
               classes={ { root: 'menuAppBarLower' } }
             >
-              <span
-                classes={ { root: 'menuAppBarLowerLeftElements' } }
+              <div
+                className='menuAppBarLowerElements'
               >
                 { this.renderHomeButton() }
-              </span>
-              <span
-                classes={ { root: 'menuAppBarLowerRightElements' } }
-              >
                 { this.renderRightElements() }
-              </span>
+              </div>
             </Toolbar>
           </AppBar>
           <SnackBarComponent

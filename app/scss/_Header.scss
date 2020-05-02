@@ -11,6 +11,12 @@
     width: 15pc;
 }
 
+.menuAppBarLowerElements {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .menuAppBarHigher {
     justify-content: flex-end;
 }
